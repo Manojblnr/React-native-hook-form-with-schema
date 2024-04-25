@@ -1,4 +1,7 @@
 module.exports = {
-  root: true,
-  extends: '@react-native',
-};
+  presets: ['@react-native/babel-preset'],
+  plugins: [
+    ['@babel/plugin-proposal-class-properties'], 
+    // etc
+  ]
+}
